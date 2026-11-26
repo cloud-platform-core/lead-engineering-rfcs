@@ -1,5 +1,7 @@
 # Lightweight RFCs: a worked demo
 
+**State:** worked example. Part of [how technical decisions flow](https://github.com/cloud-platform-core).
+
 This repository shows one way to lead technical work: write down significant decisions as short RFCs (requests for comments), then hand the build to engineers or contractors as a spec with testable acceptance criteria.
 
 The setting is cloud and platform engineering for life-science research. **Example Lab is fictional**, as are its people, systems, targets and events. The software tools named in the example are real, and claims about them link to their documentation.
@@ -64,7 +66,15 @@ A decision is reopened only on new information or a stated revisit trigger, thro
 | --- | --- | --- | --- |
 | 0001 | [Workflow engine for analysis pipelines](rfcs/0001-workflow-engine.md) | Accepted (fictional) | [MVP spec](specs/0001-workflow-engine-mvp.md) |
 
-Also: [How we build](docs/how-we-build.md), from requirement to release.
+## Proposals
+
+A proposal is shorter than an RFC. It moves an existing decision forward using evidence.
+
+| Proposal | Status |
+| --- | --- |
+| [Move Nextflow to Adopt](proposals/example-nextflow-to-adopt.md) | In review (fictional) |
+
+Also: [How we build](https://github.com/cloud-platform-core/tl-guidelines/blob/main/how-we-build.md), from requirement to release, and the [technology agreement](https://github.com/cloud-platform-core/tl-guidelines/blob/main/agreement.md) that records where decisions land.
 
 ## Sources
 
